@@ -1,10 +1,22 @@
 body {
     margin: 30px;
+    background: rgba(219, 51, 0, 1);
+    background: -moz-linear-gradient(top, rgba(219, 51, 0, 1) 0%, rgba(255, 165, 138, 1) 48%, rgba(255, 169, 143, 1) 81%, rgba(255, 169, 143, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(219, 51, 0, 1)), color-stop(48%, rgba(255, 165, 138, 1)), color-stop(81%, rgba(255, 169, 143, 1)), color-stop(100%, rgba(255, 169, 143, 1)));
+    background: -webkit-linear-gradient(top, rgba(219, 51, 0, 1) 0%, rgba(255, 165, 138, 1) 48%, rgba(255, 169, 143, 1) 81%, rgba(255, 169, 143, 1) 100%);
+    background: -o-linear-gradient(top, rgba(219, 51, 0, 1) 0%, rgba(255, 165, 138, 1) 48%, rgba(255, 169, 143, 1) 81%, rgba(255, 169, 143, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(219, 51, 0, 1) 0%, rgba(255, 165, 138, 1) 48%, rgba(255, 169, 143, 1) 81%, rgba(255, 169, 143, 1) 100%);
+    background: linear-gradient(to bottom, rgba(219, 51, 0, 1) 0%, rgba(255, 165, 138, 1) 48%, rgba(255, 169, 143, 1) 81%, rgba(255, 169, 143, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db3300', endColorstr='#ffa98f', GradientType=0);
 }
 
 .imagenPrincipal {
     width: 30%;
     margin: 10px;
+}
+
+.tituloPrin.nombre {
+    font-family: 'Staatliches', cursive;
 }
 
 .tituloPrin {
@@ -14,17 +26,44 @@ body {
 
 .tituloPrin.arroba {
     margin-bottom: 30px;
+    font-family: 'Vampiro One', cursive;
 }
 
 .btn {
     font-size: 90%;
     margin-top: 20;
     margin-bottom: 20px;
+    background-color: #08807E;
+    color: white;
+    border-color: unset;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn:hover {
+    background-color: unset;
+    font-weight: bold;
+    font-size: 95%;
+    border-color: unset;
+    font-family: 'Nunito', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
 }
 
 .creador {
     margin-top: 30px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Media queri con Bootstrap se usa diferente, hay que revisar la documentacion */
