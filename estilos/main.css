@@ -3,7 +3,7 @@ body {
 }
 
 .imagenPrincipal {
-    width: 35%;
+    width: 30%;
     margin: 10px;
 }
 
@@ -28,6 +28,13 @@ body {
 }
 
 /* Media queri con Bootstrap se usa diferente, hay que revisar la documentacion */
+@media (min-width:768px) and (max-width:1440px) {
+    body {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
 @media (max-width:375px) {
     .creador {
         font-size: 80%;
