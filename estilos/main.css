@@ -29,7 +29,17 @@ body {
     font-family: 'Vampiro One', cursive;
 }
 
-.btn {
+.btn a:link,
+.btn a:visited {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.btn,
+button:link,
+button:visited,
+button:hover,
+button:active {
     font-size: 90%;
     margin-top: 20;
     margin-bottom: 20px;
@@ -37,6 +47,7 @@ body {
     color: white;
     border-color: unset;
     font-family: 'Nunito', sans-serif;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -45,6 +56,7 @@ body {
     font-size: 95%;
     border-color: unset;
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 a:link {
