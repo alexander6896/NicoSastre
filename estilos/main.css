@@ -1,12 +1,49 @@
+body {
+    margin: 30px;
+}
+
 .imagenPrincipal {
-    width: 25%;
-    /* border-radius: 100px; */
+    width: 35%;
+    margin: 10px;
 }
 
 .tituloPrin {
     text-align: center;
+    margin-top: 20px;
+}
+
+.tituloPrin.arroba {
+    margin-bottom: 30px;
 }
 
 .btn {
     font-size: 90%;
+    margin-top: 20;
+    margin-bottom: 20px;
+}
+
+.creador {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Media queri con Bootstrap se usa diferente, hay que revisar la documentacion */
+@media (max-width:375px) {
+    .creador {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .tituloPrin.nombre {
+        font-size: 50px;
+    }
+
+    .imagenPrincipal {
+        width: 50%;
+    }
+
+    .creador {
+        font-size: 70%;
+    }
 }
